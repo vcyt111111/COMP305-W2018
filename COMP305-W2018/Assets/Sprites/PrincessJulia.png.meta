@@ -1,0 +1,577 @@
+fileFormatVersion: 2
+guid: 898e1a6086d42744b86aac45828cb0a2
+timeCreated: 1518992002
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: PrincessJulia_0
+    21300002: PrincessJulia_1
+    21300004: PrincessJulia_2
+    21300006: PrincessJulia_3
+    21300008: PrincessJulia_4
+    21300010: PrincessJulia_5
+    21300012: PrincessJulia_6
+    21300014: PrincessJulia_7
+    21300016: PrincessJulia_8
+    21300018: PrincessJulia_9
+    21300020: PrincessJulia_10
+    21300022: PrincessJulia_11
+    21300024: PrincessJulia_12
+    21300026: PrincessJulia_13
+    21300028: PrincessJulia_14
+    21300030: PrincessJulia_15
+    21300032: PrincessJulia_16
+    21300034: PrincessJulia_17
+    21300036: PrincessJulia_18
+    21300038: PrincessJulia_19
+    21300040: PrincessJulia_20
+    21300042: PrincessJulia_21
+    21300044: PrincessJulia_22
+    21300046: PrincessJulia_23
+    21300048: PrincessJulia_26
+    21300050: PrincessJulia_27
+    21300052: PrincessJulia_28
+    21300054: PrincessJulia_29
+    21300056: PrincessJulia_30
+    21300058: PrincessJulia_31
+    21300060: PrincessJulia_32
+    21300062: PrincessJulia_33
+  externalObjects: {}
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PrincessJulia_0
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 349
+        width: 31
+        height: 61
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PrincessJulia_1
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 349
+        width: 27
+        height: 57
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PrincessJulia_2
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 350
+        width: 27
+        height: 56
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PrincessJulia_3
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 348
+        width: 27
+        height: 58
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PrincessJulia_4
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 350
+        width: 28
+        height: 57
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PrincessJulia_5
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 349
+        width: 30
+        height: 59
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PrincessJulia_6
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 349
+        width: 28
+        height: 60
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PrincessJulia_7
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 350
+        width: 31
+        height: 59
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PrincessJulia_8
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 350
+        width: 37
+        height: 58
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PrincessJulia_9
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 350
+        width: 37
+        height: 58
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PrincessJulia_10
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 348
+        width: 28
+        height: 60
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PrincessJulia_11
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 350
+        width: 26
+        height: 51
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PrincessJulia_12
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 350
+        width: 26
+        height: 52
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PrincessJulia_13
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 288
+        width: 26
+        height: 61
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PrincessJulia_14
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 289
+        width: 26
+        height: 59
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PrincessJulia_15
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 288
+        width: 33
+        height: 60
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PrincessJulia_16
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 288
+        width: 32
+        height: 60
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PrincessJulia_17
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 289
+        width: 33
+        height: 58
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PrincessJulia_18
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 291
+        width: 35
+        height: 56
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PrincessJulia_19
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 288
+        width: 36
+        height: 59
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PrincessJulia_20
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 289
+        width: 33
+        height: 56
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PrincessJulia_21
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 289
+        width: 33
+        height: 58
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PrincessJulia_22
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 290
+        width: 26
+        height: 54
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PrincessJulia_23
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 291
+        width: 27
+        height: 53
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PrincessJulia_26
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 230
+        width: 27
+        height: 54
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PrincessJulia_27
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 229
+        width: 37
+        height: 55
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PrincessJulia_28
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 229
+        width: 27
+        height: 55
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PrincessJulia_29
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 230
+        width: 28
+        height: 54
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PrincessJulia_30
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 228
+        width: 38
+        height: 56
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PrincessJulia_31
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 227
+        width: 29
+        height: 57
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PrincessJulia_32
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 230
+        width: 38
+        height: 60
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PrincessJulia_33
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 231
+        width: 32
+        height: 60
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
