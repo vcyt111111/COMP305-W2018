@@ -7,6 +7,7 @@ public class Player2Controller : MonoBehaviour {
     //public variables
     public float maxSpeed = 10.0f;
     public float jumpForce = 200.0f;
+    public float groundRadius = 0.2f;
     public Transform groundCheck;
     public LayerMask defineGround;
 
@@ -15,9 +16,10 @@ public class Player2Controller : MonoBehaviour {
     private SpriteRenderer sRend;
     private Animator animator;
 
-    private bool isGrounded = false;
-    private float groundRadius = 0.2f;
-
+    private float moveH;
+    private bool isRight;
+    private bool isGrounded;
+    
     // Use this for initialization
     void Start()
     {
@@ -29,10 +31,11 @@ public class Player2Controller : MonoBehaviour {
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKey(KeyCode.V) && isGrounded)
+        if (isGrounded && Input.GetAxis("Jump") > 0)
         {
-            animator.SetBool("Ground", isGrounded);
+            animator.SetBool("Ground", false);
             rBody.AddForce(new Vector2(0, jumpForce));
+            isGrounded = false;
         }
     }
 
@@ -41,23 +44,27 @@ public class Player2Controller : MonoBehaviour {
     {
         isGrounded = Physics2D.OverlapCircle(groundCheck.position, groundRadius, defineGround);
         //Debug.Log("Ground? " + isGrounded);
+        animator.SetBool("Ground", isGrounded);
         animator.SetFloat("vSpeed", rBody.velocity.y);
 
-        float moveHoriz = Input.GetAxis("Horizontal");
-
-        //pass horizontal velocity to animator (Speed)
-        animator.SetFloat("Speed", Mathf.Abs(moveHoriz));
-
-        //Debug.Log("Move Horizontal: " + moveHoriz);
-        rBody.velocity = new Vector2(moveHoriz * maxSpeed, rBody.velocity.y);
-
-        if (moveHoriz > 0)
+        if (isGrounded)
         {
-            sRend.flipX = false;
-        }
-        else if (moveHoriz < 0)
-        {
-            sRend.flipX = true;
+            moveH = Input.GetAxis("Horizontal");
+
+            //pass horizontal velocity to animator (Speed)
+            animator.SetFloat("Speed", Mathf.Abs(moveH));
+
+            //Debug.Log("Move Horizontal: " + moveHoriz);
+            rBody.velocity = new Vector2(moveH * maxSpeed, rBody.velocity.y);
+
+            if (moveH > 0)
+            {
+                sRend.flipX = false;
+            }
+            else if (moveH < 0)
+            {
+                sRend.flipX = true;
+            }
         }
     }
 }
